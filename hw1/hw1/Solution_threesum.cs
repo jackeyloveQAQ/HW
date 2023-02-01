@@ -20,18 +20,18 @@ namespace hw1
                     if ((nums[i] + nums[l] + nums[r]) == 0)
                     {
                         result.Add(new List<int> { nums[i], nums[l], nums[r] });
-                        l--;
-                        r++;
+                        l++;
+                        r--;
 
                     }
                     else if ((nums[i] + nums[l] + nums[r]) < 0)
                     {
-                        r++;
+                        l++;
 
                     }
                     else
                     {
-                        l--;
+                        r--;
                     }
                 }
 
