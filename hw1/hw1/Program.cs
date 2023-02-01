@@ -59,7 +59,7 @@ IEnumerable interface
 stringbuilder can change the letter in specific position
 string can't change
 2. What is the base class for all arrays in C#?
-The Array class
+The Array class from object class
 3.How do you sort an array in C#?
 array.sort()
 4.What property of an array object can be used to get the total number of elements in an array?
