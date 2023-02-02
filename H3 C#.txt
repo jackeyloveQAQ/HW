@@ -92,6 +92,26 @@ Working with methods
         }
 
 2. 
+        public int fib(int idx)
+        {   if (idx == 0)
+            {
+                return 1;
+            }
+            if (idx == 1)
+            {
+                return 1;
+            } 
+
+            int[] numbers = new int[idx];
+            numbers[0] = 1;
+            numbers[1] = 1;
+            for (int i =2; i < numbers.Length;i++)
+            {
+                numbers[i] = numbers[i - 1] + numbers[i-2];
+            }
+            return numbers[numbers.Length - 1];
+
+        }
 Designing and Building Classes using object-oriented principles
 1. Write a program that that demonstrates use of four basic principles of
 object-oriented programming /Abstraction/, /Encapsulation/, /Inheritance/ and
